@@ -11,9 +11,9 @@ We welcome and encourage contributions from the public. Please send a [pull requ
 
 ### Attack Vectors
 
-#### Stolen Equipment
+#### Stolen Devices
 
-- **Threat:** An attacker steals equipment such as computers, laptops, and mobile devices, and uses it to gain access to logged-in services or stored information and credentials.
+- **Threat:** An attacker steals devices (such as computers, laptops, and mobile devices) in an attempt to to gain access to logged-in services or stored information and credentials.
 - **Prevention:** Ensure every device is hardened so its data cannot be accessed without credentials. Refer to [Hardening Computers](#hardening-computers) and [Hardening Mobile Devices](#hardening-mobile-devices). 
 - **Remediation:** TODO
 
