@@ -15,7 +15,7 @@ Cryptoassets are at great risk of theft given the difficulty in tracking and rec
 
 The nature of cryptoassets makes them very susceptible to cyber attacks. Some examples include malware, phishing, and social engineering. Third-party services and software (such as exchanges and wallets) present another set of challenges. For example, a number of exchanges have had their funds stolen. There have also been a number of cases in which attackers relied on physical violence to steal cryptoassets. Examples include armed robberies and ransoms for kidnappings. Refer to [this article](https://www.nytimes.com/2018/02/18/technology/virtual-currency-extortion.html) for a number of anecdotes.
 
-This playbook is split into two sections: [Cybersecurity](#cybersecurity) and [Physical Security](#physical-security). Both of them are relevant to investors, especially as attacks and best practices are often hybrid. In each section, we present a number of potential attacks and best practices for prevention and remediation.
+This playbook is split into two sections: [Cybersecurity](#cybersecurity) and [Physical Security](#physical-security). Both of them are relevant to investors, especially as attacks and best practices are often hybrid. In each section, we present a number of potential attacks and best practices for prevention and remediation. Finally, we present a [Checklist](#checklist) to help investors implement the strategies that are most relevant to their needs.
 
 
 ## Cybersecurity
@@ -52,3 +52,9 @@ Depending on your platform, refer to the following resources:
 - **Threat:** An attacker steals property such as electronic devices and data stored offline.
 - **Prevention:** Refer to [Stolen Devices](#stolen-devices). TODO: prevention for offline data
 - **Remediation:** TODO
+
+## Checklist
+
+### Basic Tasks
+
+- [ ] Ensure that every device that contains sensitive information or interacts with cryptoassets is hardened. Refer to [Hardening Computers](#hardening-computers) and [Hardening Mobile Devices](#hardening-mobile-devices).
