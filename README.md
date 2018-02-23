@@ -20,15 +20,32 @@ This playbook covers cybersecurity and physical security. Both of them are relev
 
 ## Potential Attacks
 
-#### Stolen Devices
+### Stolen Credentials
+
+- **Threat:** An attacker steals credentials to third-party services (e.g. exchanges) in an attempt to steal cryptoassets.
+- **Prevention:** Follow [Password](#passwords) best practices. Enable [Two-Factor Authentication](#two-factor-authentication) and avoid services that do not support it.
+- **Remediation:** TODO
+
+
+### Stolen Devices
 
 - **Threat:** An attacker steals devices (such as computers and mobile devices) in an attempt to to gain access to logged-in services or stored information and credentials.
 - **Prevention:** Ensure every device is hardened so its data cannot be accessed without credentials. Refer to [Hardening Computers](#hardening-computers) and [Hardening Mobile Devices](#hardening-mobile-devices). 
 - **Remediation:** TODO
 
 
-
 ## Best Practices
+
+### Passwords
+
+The following password policy should be adopted:
+
+- Use a unique password for each service. Shared passwords will make an otherwise limited attack have a much wider effect.
+- Use strong passwords. A sequence of common words (e.g. "securityforcryptoassets") tends to be highly secure and memorable (unlike short sequences of random characters, e.g. "w7Ro2mcA"). Refer to [this](https://baekdal.com/thoughts/password-security-usability/) and [this](https://xkcd.com/936/) for more details.
+
+### Two-Factor Authentication
+
+TODO
 
 ### Hardening Computers
 
