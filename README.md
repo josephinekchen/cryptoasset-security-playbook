@@ -14,7 +14,7 @@ We welcome and encourage contributions from the public. Please send a [pull requ
 #### Stolen Equipment
 
 - **Threat:** An attacker steals equipment such as computers, laptops, and mobile devices, and uses it to gain access to logged-in services or stored information and credentials.
-- **Prevention:** Ensure every device is hardened so that it cannot be . Refer to [Hardening Computers](#hardening-computers) and [Hardening Mobile Devices](#hardening-mobile-devices). 
+- **Prevention:** Ensure every device is hardened so its data cannot be accessed without credentials. Refer to [Hardening Computers](#hardening-computers) and [Hardening Mobile Devices](#hardening-mobile-devices). 
 - **Remediation:** TODO
 
 ### Tactics
