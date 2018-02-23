@@ -39,5 +39,5 @@ Depending on your platform, refer to the following resources:
 #### Theft
 
 - **Threat:** An attacker steals property such as electronic devices and data stored offline.
-- **Prevention:** Refer to [Stolen Devices](#stolen-devices). TODO: offline data storage
+- **Prevention:** Refer to [Stolen Devices](#stolen-devices). TODO: prevention for offline data storage
 - **Remediation:** Same as above.
