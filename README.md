@@ -30,3 +30,14 @@ Depending on your platform, refer to the following resources:
 Depending on your platform, refer to the following resources:
 
 - **iOS:** Simple checklists suitable for individuals and small organizations can be found [here](https://security.utexas.edu/handheld-hardening-checklists/ios) and [here](https://ecn.io/ios-hardening-guide-df60535c6c5). A more comprehensive guide can be found [here](https://www.asd.gov.au/publications/protect/ios-hardening-guide.htm).
+
+
+## Physical Security
+
+### Attack Vectors
+
+#### Theft
+
+- **Threat:** An attacker steals property such as electronic devices and data stored offline.
+- **Prevention:** Refer to [Stolen Devices](#stolen-devices). TODO: offline data storage
+- **Remediation:** Same as above.
