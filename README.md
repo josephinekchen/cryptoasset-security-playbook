@@ -45,7 +45,7 @@ The following password policy should be adopted:
 
 ### Two-Factor Authentication
 
-Two-factor authentication (2FA), or more broadly, multi-factor authenticator (MFA) prevents attackers from gaining access to your services by only stealing your credentials.
+Two-factor authentication (2FA) or, more broadly, multi-factor authenticator (MFA) prevents attackers from gaining access to your services by only stealing your credentials.
 
 TODO
 
