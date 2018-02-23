@@ -45,6 +45,8 @@ The following password policy should be adopted:
 
 ### Two-Factor Authentication
 
+Two-factor authentication (2FA), or more broadly, multi-factor authenticator (MFA) prevents attackers from gaining access to your services by only knowing your credentials.
+
 TODO
 
 ### Hardening Computers
@@ -65,4 +67,6 @@ Depending on your platform, refer to the following resources:
 
 ### Basic Tasks
 
+- [ ] Use secure passwords. Refer to [Passwords](#passwords).
+- [ ] Enable two-factor authentication (2FA/MFA). Refer to [Two-Factor Authentication](#two-factor-authentication-2fa).
 - [ ] Ensure that every device that contains sensitive information or interacts with cryptoassets is hardened. Refer to [Hardening Computers](#hardening-computers) and [Hardening Mobile Devices](#hardening-mobile-devices).
