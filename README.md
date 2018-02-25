@@ -21,11 +21,27 @@ This playbook covers cybersecurity and physical security. Both of them are relev
 
 ## Potential Attacks
 
+
 ### Stolen Credentials
 
 - **Threat:** An attacker steals credentials to third-party services (e.g. exchanges) in an attempt to steal cryptoassets.
 - **Prevention:** Follow [Password](#passwords) best practices. Enable [Two-Factor Authentication](#two-factor-authentication) and avoid services that do not support it.
 - **Remediation:** TODO
+
+
+### Stolen API Keys
+
+- **Threat:** An attacker steals API keys to third-party services (e.g. exchanges) in an attempt to steal cryptoassets.
+  - ***Note:** Trading permissions are enough to steal the funds. Refer to [Trading Privileges](#trading-privileges) for details.*
+- **Prevention:** Do not generate API keys unless necessary. Assign the minimum amount of privileges necessary to the keys. If the key has withdrawal or trading privileges, treat it as a wallet's private key (refer to TODO).
+- **Remediation:** Revoke the API keys. If other API keys are stored in the same location, revoke them as well.
+
+
+### Trading Privileges
+
+- **Threat:** An attacker can steal funds in exchanges using only trading privileges by selling back and forth between your account and theirs, profiting the spread on each trade. This technique is particularly profitable (and therefore dangerous) in exchanges with large spreads. Attackers can also deplete your account by accruing massive trading fees. Therefore, funds are at risk even if the attacker cannot perform an withdrawal.
+- **Prevention:** Refer to [Stolen Credentials](#stolen-credentials) and [Stolen API Keys](#stolen-api-keys), as appropriate.
+- **Remediation:** Refer to [Stolen Credentials](#stolen-credentials) and [Stolen API Keys](#stolen-api-keys), as appropriate.
 
 
 ### Stolen Devices
@@ -71,3 +87,4 @@ Depending on your platform, refer to the following resources:
 - [ ] Use secure [Passwords](#passwords).
 - [ ] Enable [Two-Factor Authentication](#two-factor-authentication-2fa) (2FA/MFA).
 - [ ] Ensure that every device that contains sensitive information or interacts with cryptoassets is hardened. Refer to [Hardening Computers](#hardening-computers) and [Hardening Mobile Devices](#hardening-mobile-devices).
+- [ ] Revoke any unused API keys and make sure the remaining keys have the mininum amount of privileges required for the task. Refer to [Stolen API Keys](#stolen-api-keys).
