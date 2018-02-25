@@ -83,6 +83,6 @@ Depending on your platform, refer to the following resources:
 ## Checklist
 
 - [ ] Use secure [Passwords](#passwords).
-- [ ] Enable [Two-Factor Authentication](#two-factor-authentication-2fa) (2FA/MFA).
+- [ ] Enable [Two-Factor Authentication](#two-factor-authentication) (2FA/MFA).
 - [ ] Ensure that every device that contains sensitive information or interacts with cryptoassets is hardened. Refer to [Hardening Computers](#hardening-computers) and [Hardening Mobile Devices](#hardening-mobile-devices).
 - [ ] Revoke any unused API keys and make sure the remaining keys have the mininum amount of privileges required for the task. Refer to [Stolen API Keys](#stolen-api-keys).
