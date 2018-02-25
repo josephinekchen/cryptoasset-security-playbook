@@ -32,7 +32,7 @@ This playbook covers cybersecurity and physical security. Both of them are relev
 ### Stolen API Keys
 
 - **Threat:** An attacker steals API keys to third-party services (e.g. exchanges) in an attempt to steal cryptoassets.
-  - ***Note:** Trading permissions are enough to steal the funds. Refer to [Trading Privileges](#trading-privileges) for details.*
+  - ***Note:** Trading privileges are enough to steal the funds. Refer to [Trading Privileges](#trading-privileges) for details.*
 - **Prevention:** Do not generate API keys unless necessary. Assign the minimum amount of privileges necessary to the keys. If the key has withdrawal or trading privileges, treat it as a wallet's private key (refer to TODO).
 - **Remediation:** Revoke the API keys. If other API keys are stored in the same location, revoke them as well.
 
