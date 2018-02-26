@@ -1,6 +1,6 @@
 # Security Playbook for Cryptoasset Investors
 
-> **Contributors:** Gabriel Bianconi (Airlock Capital), Viraj Mehta (Airlock Capital)
+> **Contributors:** Gabriel Bianconi (Airlock Capital), Viraj Mehta (Airlock Capital), Josephine Chen (Emergence Capital)
 
 > **Note:** This document is still an early draft. Exercise caution and do your own research.
 
