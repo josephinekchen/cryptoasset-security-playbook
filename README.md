@@ -1,6 +1,6 @@
 # Security Playbook for Cryptoasset Investors
 
-> **Contributors:** Gabriel Bianconi (Airlock Capital), Viraj Mehta (Airlock Capital), Josephine Chen (Emergence Capital)
+> **Contributors:** Gabriel Bianconi (Airlock Capital), Viraj Mehta (Airlock Capital), Josephine Chen
 
 > **Note:** This document is still an early draft. Exercise caution and do your own research.
 
@@ -19,7 +19,50 @@ The nature of cryptoassets makes them very susceptible to cyber attacks. Some ex
 This playbook covers cybersecurity and physical security. Both of them are relevant to investors, especially since they are often intertwined. We present a number of [Potential Attacks](#potential-attacks) and [Best Practices](#best-practices) for prevention and remediation. Finally, we present a [Checklist](#checklist) to help investors implement the strategies that are most relevant to their needs.
 
 
-## Potential Attacks
+## Best Practices
+
+### Hardening Computers
+
+***Relevant Threats:** [Stolen Devices](#stolen-devices)*
+
+Depending on your platform, refer to the following resources:
+
+- **macOS (OS X):** A comprehensive guide for hardening macOS devices is available [here](https://github.com/drduh/macOS-Security-and-Privacy-Guide).
+
+
+
+### Hardening Mobile Devices
+
+***Relevant Threats:** [Stolen Devices](#stolen-devices)*
+
+Depending on your platform, refer to the following resources:
+
+- **iOS:** Simple checklists suitable for individuals and small organizations can be found [here](https://security.utexas.edu/handheld-hardening-checklists/ios) and [here](https://ecn.io/ios-hardening-guide-df60535c6c5). A more comprehensive guide can be found [here](https://www.asd.gov.au/publications/protect/ios-hardening-guide.htm).
+
+
+
+### Passwords
+
+***Relevant Threats:** [Stolen Credentials](#stolen-credentials), [Trading Privileges](#trading-privileges)*
+
+The following password policy should be adopted:
+
+- Use a unique password for each service. Shared passwords will make an otherwise limited attack have a much wider effect.
+- Use strong passwords. A sequence of common words (e.g. "securityforcryptoassets") tends to be highly secure and memorable (unlike short sequences of random characters, e.g. "w7Ro2mcA"). Refer to [this](https://baekdal.com/thoughts/password-security-usability/) and [this](https://xkcd.com/936/) for more details.
+
+
+
+### Two-Factor Authentication
+
+***Relevant Threats:** [Stolen Credentials](#stolen-credentials), [Trading Privileges](#trading-privileges)*
+
+Two-factor authentication (2FA), or more broadly, multi-factor authenticator (MFA), prevents attackers from gaining access to your services by only stealing your credentials.
+
+TODO
+
+
+
+## Threats
 
 
 ### Stolen Credentials
@@ -49,35 +92,6 @@ This playbook covers cybersecurity and physical security. Both of them are relev
 - **Threat:** An attacker steals devices (such as computers and mobile devices) in an attempt to to gain access to logged-in services or stored information and credentials.
 - **Prevention:** Ensure every device is hardened so its data cannot be accessed without credentials. Refer to [Hardening Computers](#hardening-computers) and [Hardening Mobile Devices](#hardening-mobile-devices). 
 - **Remediation:** TODO
-
-
-## Best Practices
-
-### Passwords
-
-The following password policy should be adopted:
-
-- Use a unique password for each service. Shared passwords will make an otherwise limited attack have a much wider effect.
-- Use strong passwords. A sequence of common words (e.g. "securityforcryptoassets") tends to be highly secure and memorable (unlike short sequences of random characters, e.g. "w7Ro2mcA"). Refer to [this](https://baekdal.com/thoughts/password-security-usability/) and [this](https://xkcd.com/936/) for more details.
-
-### Two-Factor Authentication
-
-Two-factor authentication (2FA), or more broadly, multi-factor authenticator (MFA), prevents attackers from gaining access to your services by only stealing your credentials.
-
-TODO
-
-### Hardening Computers
-
-Depending on your platform, refer to the following resources:
-
-- **macOS (OS X):** A comprehensive guide for hardening macOS devices is available [here](https://github.com/drduh/macOS-Security-and-Privacy-Guide).
-
-### Hardening Mobile Devices
-
-Depending on your platform, refer to the following resources:
-
-- **iOS:** Simple checklists suitable for individuals and small organizations can be found [here](https://security.utexas.edu/handheld-hardening-checklists/ios) and [here](https://ecn.io/ios-hardening-guide-df60535c6c5). A more comprehensive guide can be found [here](https://www.asd.gov.au/publications/protect/ios-hardening-guide.htm).
-
 
 
 ## Checklist
